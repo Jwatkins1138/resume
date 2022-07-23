@@ -46,7 +46,7 @@ html {
  .icon {
   height: 2em;
   width: 2em;
-  margin: 1em;
+  margin: .6em;
  }
 
  #email {
@@ -61,6 +61,11 @@ html {
 
  #location {
   background-image: url('./location.svg');
+  background-size: cover;
+ }
+
+ #portfolio {
+  background-image: url('./portfolio.svg');
   background-size: cover;
  }
 
