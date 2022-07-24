@@ -19,7 +19,7 @@ html {
  main {
   display: flex;
   justify-content: center;
-  /* background-color:black; */
+  background-color:black;
   height: 95vh;
  }
 
@@ -110,6 +110,7 @@ html {
  .skills {
   padding-left: 3em;
   padding-top: 1em;
+  padding-bottom: 10em;
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 100, 0, 0.3);
