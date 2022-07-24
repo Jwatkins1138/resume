@@ -60,6 +60,10 @@ html {
   border-right: 1px solid aquamarine;
  }
 
+ a {
+  color: yellow;
+ }
+
  .info-box {
   display: flex;
   align-items: center;
