@@ -12,14 +12,14 @@ html {
   color: white;
  }
 
- @media (max-width: 600px) {
-  html {
-    background: radial-gradient(at top left, rgb(50, 50, 50), blue);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
- }
+ /* @media (max-width: 600px) { */
+html {
+  background: radial-gradient(at top left, rgb(50, 50, 50), blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+ /* } */
 
  main {
   display: flex;
@@ -27,7 +27,7 @@ html {
   /* background-color:black; */
   height: 140vh;
   /* flex-wrap: wrap; */
-  background: radial-gradient(at top left, rgb(50, 50, 50), blue);
+  /* background: radial-gradient(at top left, rgb(50, 50, 50), blue); */
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* background-attachment: fixed; */
