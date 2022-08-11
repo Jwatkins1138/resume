@@ -12,39 +12,13 @@ html {
   color: black;
  }
 
- /* @media (max-width: 600px) { */
-/* html {
-  background: radial-gradient(at top left, rgb(50, 50, 50), blue);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-} */
- /* } */
 
  main {
   display: flex;
   flex-direction: column;
-  /* background-color:black; */
-  height: 140vh;
-  /* flex-wrap: wrap; */
-  /* background: radial-gradient(at top left, rgb(50, 50, 50), blue); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
  }
 
- @media (max-width: 600px) {
-  main {
-    flex-wrap: wrap;
-  }
- }
-
-
- @media (max-width: 600px) {
-  aside {
-    width: 100vw;
-  }
- }
+ 
 
  header {
   display: flex;
@@ -144,11 +118,6 @@ html {
   flex-direction: column;
  }
 
- @media (max-width: 600px) {
-  .main {
-    width: 100vw;
-  }
- }
 
  .projects {
   display: flex;
@@ -162,7 +131,6 @@ html {
  }
 
  .project {
-  /* border-right: 1px solid grey; */
   margin-right: 1em;
   width: 50%;
  }
@@ -179,7 +147,6 @@ html {
  }
 
  .job {
-  /* border-right: 1px solid grey; */
   margin-right: 1em;
   width: 50%;
  }
