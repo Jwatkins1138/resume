@@ -22,6 +22,8 @@ html {
 
  header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background: rgb(0, 0, 0);
  }
 
@@ -66,6 +68,8 @@ html {
  h1 {
   font-family: 'q';
   color: white;
+  margin-top: 0%;
+  margin-bottom: 0%;
  }
 
  h2 {
@@ -76,12 +80,12 @@ html {
 
  h3 {
   font-family: 'q';
-  margin-top: 0%;
-  margin-bottom: 0%;
  }
 
  h4 {
   font-family: 'q';
+  margin-top: 0;
+  margin-bottom: 0;
  }
 
  .head-title > h1 {
@@ -91,14 +95,14 @@ html {
 
  .head-title > p {
   margin-top: none;
-  transform: translateY(-200%);
+  transform: translateY(-100%);
   color: orange;
  }
 
  .head-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  font-size: smaller;
  }
 
  .info {
@@ -154,13 +158,9 @@ html {
   
  }
 
- .work-lists {
-  display: flex;
- }
-
  .job {
   margin-right: 1em;
-  /* width: 50%; */
+  width: 50%;
  }
 
  li {
